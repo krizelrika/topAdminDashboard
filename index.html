@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="dashboard-container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="sidebar-brand">
+                <span class="material-icons">dashboard</span>
+                <h1>Dashboard</h1>
+            </div>
+            
+            <nav class="sidebar-nav">
+                <a href="#" class="nav-item active">
+                    <span class="material-icons">home</span>
+                    <span>Home</span>
+                </a>
+                <a href="#" class="nav-item">
+                    <span class="material-icons">person</span>
+                    <span>Profile</span>
+                </a>
+                <a href="#" class="nav-item">
+                    <span class="material-icons">message</span>
+                    <span>Messages</span>
+                </a>
+                <a href="#" class="nav-item">
+                    <span class="material-icons">history</span>
+                    <span>History</span>
+                </a>
+                <a href="#" class="nav-item">
+                    <span class="material-icons">task</span>
+                    <span>Tasks</span>
+                </a>
+                <a href="#" class="nav-item">
+                    <span class="material-icons">groups</span>
+                    <span>Communities</span>
+                </a>
+            </nav>
+            
+            <div class="sidebar-secondary">
+                <a href="#" class="nav-item">
+                    <span class="material-icons">settings</span>
+                    <span>Settings</span>
+                </a>
+                <a href="#" class="nav-item">
+                    <span class="material-icons">support</span>
+                    <span>Support</span>
+                </a>
+                <a href="#" class="nav-item">
+                    <span class="material-icons">privacy_tip</span>
+                    <span>Privacy</span>
+                </a>
+            </div>
+        </aside>
+
+        <!-- Header -->
+        <header class="header">
+            <div class="search-container">
+                <span class="material-icons">search</span>
+                <input type="text" placeholder="Search projects, users, or content...">
+            </div>
+            
+            <div class="header-icon">
+                <span class="material-icons">notifications</span>
+            </div>
+            
+            <div class="user-profile">
+                <div class="user-avatar">JD</div>
+                <span>John Doe</span>
+            </div>
+            
+            <div class="header-buttons">
+                <button class="btn btn-secondary">
+                    <span class="material-icons">add</span>
+                    New
+                </button>
+                <button class="btn btn-secondary">
+                    <span class="material-icons">upload</span>
+                    Upload
+                </button>
+                <button class="btn btn-primary">
+                    <span class="material-icons">share</span>
+                    Share
+                </button>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <section class="projects-section">
+                <h2 class="section-title">Your Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-header">
+                            <div>
+                                <h3 class="project-title">Super Cool Project</h3>
+                            </div>
+                            <div class="project-actions">
+                                <div class="action-icon">
+                                    <span class="material-icons">star_border</span>
+                                </div>
+                                <div class="action-icon">
+                                    <span class="material-icons">visibility</span>
+                                </div>
+                                <div class="action-icon">
+                                    <span class="material-icons">share</span>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="project-description">
+                            An innovative web application that revolutionizes how users interact with data visualization and analytics.
+                        </p>
+                    </div>
+                    
+                    <div class="project-card">
+                        <div class="project-header">
+                            <div>
+                                <h3 class="project-title">Impossible App</h3>
+                            </div>
+                            <div class="project-actions">
+                                <div class="action-icon">
+                                    <span class="material-icons">star</span>
+                                </div>
+                                <div class="action-icon">
+                                    <span class="material-icons">visibility</span>
+                                </div>
+                                <div class="action-icon">
+                                    <span class="material-icons">share</span>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="project-description">
+                            A mobile application that pushes the boundaries of what's possible with modern technology and user experience.
+                        </p>
+                    </div>
+                    
+                    <div class="project-card">
+                        <div class="project-header">
+                            <div>
+                                <h3 class="project-title">Design System Pro</h3>
+                            </div>
+                            <div class="project-actions">
+                                <div class="action-icon">
+                                    <span class="material-icons">star_border</span>
+                                </div>
+                                <div class="action-icon">
+                                    <span class="material-icons">visibility</span>
+                                </div>
+                                <div class="action-icon">
+                                    <span class="material-icons">share</span>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="project-description">
+                            A comprehensive design system that streamlines the development process and ensures consistency across products.
+                        </p>
+                    </div>
+                    
+                    <div class="project-card">
+                        <div class="project-header">
+                            <div>
+                                <h3 class="project-title">AI Dashboard</h3>
+                            </div>
+                            <div class="project-actions">
+                                <div class="action-icon">
+                                    <span class="material-icons">star_border</span>
+                                </div>
+                                <div class="action-icon">
+                                    <span class="material-icons">visibility</span>
+                                </div>
+                                <div class="action-icon">
+                                    <span class="material-icons">share</span>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="project-description">
+                            An intelligent dashboard that leverages machine learning to provide actionable insights and predictive analytics.
+                        </p>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="announcements-section">
+                <h2 class="section-title">Announcements</h2>
+                <div class="announcement-card">
+                    <h3 class="announcement-title">Site Maintenance</h3>
+                    <p class="announcement-text">
+                        Scheduled maintenance will occur this weekend. Some features may be temporarily unavailable.
+                    </p>
+                </div>
+                <div class="announcement-card">
+                    <h3 class="announcement-title">New Features Released</h3>
+                    <p class="announcement-text">
+                        We've added new collaboration tools and improved the project sharing experience.
+                    </p>
+                </div>
+                <div class="announcement-card">
+                    <h3 class="announcement-title">Community Guidelines</h3>
+                    <p class="announcement-text">
+                        Please review our updated community guidelines to ensure a positive experience for everyone.
+                    </p>
+                </div>
+            </section>
+            
+            <section class="trending-section">
+                <h2 class="section-title">Trending</h2>
+                <div class="trending-item">
+                    <div class="trending-avatar">AM</div>
+                    <div class="trending-info">
+                        <h4>@alexmorgan</h4>
+                        <p>React Native Weather App</p>
+                    </div>
+                </div>
+                <div class="trending-item">
+                    <div class="trending-avatar">SK</div>
+                    <div class="trending-info">
+                        <h4>@sarahkim</h4>
+                        <p>E-commerce Platform</p>
+                    </div>
+                </div>
+                <div class="trending-item">
+                    <div class="trending-avatar">MJ</div>
+                    <div class="trending-info">
+                        <h4>@mikejohnson</h4>
+                        <p>Portfolio Website</p>
+                    </div>
+                </div>
+                <div class="trending-item">
+                    <div class="trending-avatar">LW</div>
+                    <div class="trending-info">
+                        <h4>@lisawang</h4>
+                        <p>Task Management Tool</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+    <script src="./index.js" defer></script>
+</html>
